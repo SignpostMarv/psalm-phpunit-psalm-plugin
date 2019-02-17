@@ -1,0 +1,21 @@
+{
+    "autoload-dev": {
+        "classmap": [
+            "./Tests/"
+        ]
+    },
+    "scripts": {
+        "tests": [
+            "phpunit --coverage-clover ./phpunit.clover --whitelist ./Tests/ -- ./Tests/",
+            "psalm --find-dead-code"
+        ]
+    },
+    "require": {
+        "php": ">=7.1,<=7.3"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^3.0",
+        "psalm/plugin-phpunit": "^0.4.1",
+        "phpunit/phpunit": "^7.5"
+    }
+}
