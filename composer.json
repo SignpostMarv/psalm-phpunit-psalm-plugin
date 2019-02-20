@@ -10,12 +10,18 @@
             "psalm --find-dead-code"
         ]
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/weirdan/phpunit-psalm-plugin.git"
+        }
+    ],
     "require": {
         "php": ">=7.1,<=7.3"
     },
     "require-dev": {
         "vimeo/psalm": "^3.0",
-        "psalm/plugin-phpunit": "^0.4.1",
+        "psalm/plugin-phpunit": "dev-master",
         "phpunit/phpunit": "^7.5"
     }
 }
