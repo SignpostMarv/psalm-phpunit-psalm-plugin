@@ -1,8 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files>
-  <file src="Tests\FooTest.php">
-    <PossiblyUnusedMethod occurrences="1">
-      <code>public function testThing() : void</code>
-    </PossiblyUnusedMethod>
-  </file>
-</files>
+<files/>
