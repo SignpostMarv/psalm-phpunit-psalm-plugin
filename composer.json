@@ -21,7 +21,7 @@
     },
     "require-dev": {
         "vimeo/psalm": "^3.0",
-        "psalm/plugin-phpunit": "dev-master",
+        "psalm/plugin-phpunit": "dev-dataproviders",
         "phpunit/phpunit": "^7.5"
     }
 }
